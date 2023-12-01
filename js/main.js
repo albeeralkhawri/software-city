@@ -67,3 +67,19 @@ $(document).ready(function () {
         observer.observe(element);
     });
 });
+
+
+$('.owl-carousel').owlCarousel({
+    items: 1,
+    loop: true,
+    margin: 10,
+    autoplay: true, // Enable autoplay
+    autoplayTimeout: 5000, // Set autoplay timeout in milliseconds (adjust as needed)
+    responsive: {
+      1000: {
+        items: 1, // Show 1 item on screens wider than 1000px
+      }
+    }
+  });
+  
+  

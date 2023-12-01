@@ -3,7 +3,17 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
+@media screen and (min-width: 1000px) {
+  .owl-carousel {
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .owl-item {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the percentage as needed */
+    max-width: calc(33.33% - 20px); /* Adjust the percentage as needed */
+  }
+}
 /*Facebook Review*/
 .carousel-wrap {
   margin: 0 auto;
