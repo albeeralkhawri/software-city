@@ -3,17 +3,7 @@ body {
   color: #000000;
   background-color: #ffffff;
 }
-@media screen and (min-width: 1000px) {
-  .owl-carousel {
-    display: flex;
-    justify-content: space-between;
-  }
 
-  .owl-item {
-    flex: 0 0 calc(33.33% - 20px); /* Adjust the percentage as needed */
-    max-width: calc(33.33% - 20px); /* Adjust the percentage as needed */
-  }
-}
 /*Facebook Review*/
 .carousel-wrap {
   margin: 0 auto;
@@ -35,6 +25,18 @@ iframe {
 
 /* Make sure the iframe takes up the full width of its container */
   /* Make sure the iframe takes up the full height of its container */
+}
+
+@media screen and (min-width: 1000px) {
+  .owl-carousel {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .owl-item {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the percentage as needed */
+    max-width: calc(33.33% - 20px); /* Adjust the percentage as needed */
+  }
 }
 
 /*Quote Select*/
@@ -74,6 +76,19 @@ body {
 #map {
   height: 100%;
 }
+
+  /* Normal link color */
+  .custom-link {
+    color: #0080ff;
+  }
+
+  /* Link color on hover */
+  .custom-link:hover {
+    color: #005ab4;
+     font-weight: bold;/* Replace with the desired color for hover state */
+  }
+
+
 /*3D our job img*/
 
 
