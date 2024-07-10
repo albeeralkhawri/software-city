@@ -41,27 +41,20 @@ iframe {
   height: 30vh;
 }
 /*End facebook Rev*/
-/* Media query for screens less than 576px */
-iframe {
-  width: 100%;
-  height: auto; /* Automatically adjust height based on content */
-  max-width: 100%; /* Ensure iframe doesn't exceed its container */
-  border: none; /* Remove iframe border */
-  box-sizing: border-box; /* Include padding and border in width calculation */
-}
+
 
 @media (max-width: 575px) {
   .client_section {
     padding: 10px 0; /* Adjust padding for smaller screens */
   }
-.carousel-wrap{
-  height: 40vh;
-  width: 40vh;
+
+
+.owl-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0; /* Remove gap between items */
 }
-  .owl-carousel {
-    flex-direction: column; /* Stack items vertically on small screens */
-    gap: 0; /* Remove gap between items */
-  }
 
   .item {
     width: 100%; /* Full width for items */
@@ -73,7 +66,7 @@ iframe {
     width: 100%; /* Full width for iframes */
     height: 30vh; /* Fixed height for iframes on smaller screens */
     max-width: 100%; /* Ensure iframe doesn't exceed container width */
-    margin: 0 25px auto; /* Remove margin */
+    margin: 0 40px auto; /* Remove margin */
     padding: 0; /* Remove padding */
     transform: scale(0.7); /* Scale down the iframe content */
     transform-origin: 0 0; /* Set the origin of scaling */
@@ -196,7 +189,7 @@ body {
 
 /*End 3D our job img*/
 
-/*For scrolling*/
+/*For scrolling
 .scrolling-text {
  
   transform: translateX(0%) translateY(50%);
@@ -213,7 +206,7 @@ body {
   transition: opacity 0.2s ease, transform 0.5s ease;
   margin-bottom: 20px; /* Adjust as needed */
 }
-
+*/
 /*End scrolling*/
 /*Text type*/
 .typed {
