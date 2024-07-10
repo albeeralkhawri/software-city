@@ -4,21 +4,14 @@ body {
   background-color: #ffffff;
 }
 
-<<<<<<< HEAD
+
 /*Facebook Review*/
 .carousel-wrap {
   margin: 0 auto;
     padding: 0;
     position: relative;
     /* Center the carousel */
-=======
-/* Facebook Rev */
-.client_section {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
->>>>>>> a2297f7b35dedba33c8484579b4cd8d0c9ac7664
+
 }
 
 .containeres {
