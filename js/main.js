@@ -91,6 +91,4 @@ $('.owl-carousel').owlCarousel({
         items: 1, // Show 1 item on screens wider than 1000px
       }
     }
-  });
-  
-  
+});

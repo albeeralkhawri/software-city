@@ -547,6 +547,7 @@ pre code {
 
 .container {
   width: 100%;
+  transform: scale(0.85);
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
