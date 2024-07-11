@@ -1,10 +1,10 @@
 function initMap() {
   // Define the coordinates for the map center
-  const uluru = { lat: 52.50320333687256, lng: -6.572661457028095 };
+  const uluru = { lat: 53.34821492112474, lng: -6.25780530939766 };
 
   // Create a new Google Map centered at 'uluru'
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 15,
+    zoom: 12,
     center: uluru,
   });
 
